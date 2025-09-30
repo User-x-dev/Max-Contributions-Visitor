@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "User-x-dev",
   "license": "ISC",
   "dependencies": {
     "jsonfile": "^6.1.0",
