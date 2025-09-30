@@ -3,12 +3,13 @@ import jsonfile from "jsonfile";
 import moment from "moment";
 import simpleGit from "simple-git";
 import random from "random";
-
+// change the userbname to your own tchange just User-x-dev to your github username
 const badgeURL = "https://visitor-badge.laobi.icu/badge?page_id=User-x-dev.User-x-dev&left_color=darkgoldenrod&right_color=darkgoldenrod&left_text=%20";
 
-const visitsNeeded = 200;
+const visitsNeeded = 100;
+const visitsLogPath = "./visitor.json";
 
-const commitsCount = 200;
+const commitsCount = 5000;
 const commitDataPath = "./commit.json";
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
